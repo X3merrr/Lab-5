@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton" onclick="myFunction()">oof</button>
+</body>
+
+<script>
+    function myFunction() {
+        let strA = 'hdfgv';
+console.log(strA[0]); // Вывод: h
+console.log(strA[1]); // Вывод: d
+console.log(strA[4]); // Вывод: v
+
+const secondsInHourA = 60 * 60;
+console.log(secondsInHourA); // Вывод: 3600
+
+let numA = 1;
+numA += 12;
+numA -= 14;
+numA *= 5;
+numA /= 7;
+numA++;
+numA--;
+alert(numA);
+
+let numB = 3;
+alert(numB);
+
+let A = 10;
+let B = 2;
+console.log(A + B); // Вывод: 12
+console.log(A - B); // Вывод: 8
+console.log(A * B); // Вывод: 20
+console.log(A / B); // Вывод: 5
+
+let C = 15;
+let D = 2;
+let resultA = C + D;
+console.log(resultA); // Вывод: 17
+
+let AA = 10;
+let BB = 2;
+let CC = 5;
+console.log(AA + BB + CC); // Вывод: 17
+
+let a = 17;
+let b = 10;
+let c = a - b;
+let d = 7;
+let result = c + d;
+console.log(result); // Вывод: 14
+
+const secondsInHour = 60 * 60;
+const secondsInDay = secondsInHour * 24;
+const secondsInMonth = secondsInDay * 30;
+console.log(`Секунды в часе: ${secondsInHour}`); 
+console.log(`Секунды в сутках: ${secondsInDay}`);
+console.log(`Секунды в месяце: ${secondsInMonth}`);
+
+const hour = new Date().getHours();
+const minute = new Date().getMinutes();
+const second = new Date().getSeconds();
+console.log(`${hour}:${minute}:${second}`); 
+
+let number = 5;
+let squaredNumber = number * number;
+console.log(squaredNumber); // Вывод: 25
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8];
+const sum = array.filter(num => num % 2 === 0).reduce((sum, num) => sum + Math.sqrt(num), 0);
+console.log(sum);
+
+let applePrice = 1.15;
+let orangePrice = 2.30;
+let totalPrice = applePrice + orangePrice;
+console.log(totalPrice); // Вывод: 3.45
+
+let X = 5;
+alert(X++); // Вывод: 5 (значение x увеличится после вывода)
+
+console.log([] + false - null + true); // Вывод: "1"
+
+let Y = 1;
+let x = Y = 2;
+console.log(x); // Вывод: 2
+
+console.log([] + 1 + 2); // Вывод: "12"
+
+let a6 = 5 % 3;
+let a7 = 3 % 5;
+let a8 = 5 + '3';
+let a9 = '5' - 3;
+let a10 = 75 + 'кг';
+console.log(a6); // Вывод: 2
+console.log(a7); // Вывод: 3
+console.log(a8); // Вывод: "53"
+console.log(a9); // Вывод: 2
+console.log(a10); // Вывод: "75кг"
+
+let height = 23;
+let width = 10;
+let s = height * width;
+console.log(s); // Вывод: 230
+
+let heightC = 10;
+let dC = 4;
+let radiusC = dC / 2;
+let v = Math.PI * radiusC * radiusC * heightC;
+console.log(v); // Вывод: 125.66370614359172
+
+let S = 2000000;
+let p = 0.1;
+let years = 5;
+let perepl = S * p * years;
+console.log(perepl); // Вывод: 1000000
+
+let str = "Привет";
+let num = 123;
+let flag = true;
+let txt = "true";
+
+console.log(typeof str); // Вывод: string
+console.log(typeof num); // Вывод: number
+console.log(typeof flag); // Вывод: boolean
+console.log(typeof txt); // Вывод: string
+
+function opposite(number) {
+  return -number;
+}
+
+console.log(opposite(5)); // Вывод: -5
+console.log(opposite(-10)); // Вывод: 10
+    }
+</script>
+</html>
