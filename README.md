@@ -60,7 +60,7 @@ alert(num);<br>
 23.	Дано число, необходимо вернуть противоположное число.<br>
 
 <h1 align = "center">Решение задач</h1>
-<image src = "https://github.com/X3merrr/Lab-2/blob/main/Resh.PNG"></image>
+<image src = "https://github.com/X3merrr/Lab-5/blob/main/Resh.PNG"></image>
 
 <h1 align = "center">Вывод</h1>
 <p>При выполнении этой лабораторной работы, я научился работать на JS</p>
