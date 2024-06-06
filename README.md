@@ -61,6 +61,18 @@ alert(num);<br>
 
 <h1 align = "center">Решение задач</h1>
 <image src = "https://github.com/X3merrr/Lab-5/blob/main/Resh.PNG"></image>
+Kata 1: <br>
+<image src = "https://github.com/X3merrr/Lab-5/blob/main/Kata1.PNG"></image>
+Kata 2: <br>
+<image src = "https://github.com/X3merrr/Lab-5/blob/main/Kata2.PNG"></image>
+Kata 3: <br>
+<image src = "https://github.com/X3merrr/Lab-5/blob/main/Kata3.PNG"></image>
+Kata 4: <br>
+<image src = "https://github.com/X3merrr/Lab-5/blob/main/Kata4.PNG"></image>
+Kata 5: <br>
+<image src = "https://github.com/X3merrr/Lab-5/blob/main/Kata5.PNG"></image>
+Kata 6: <br>
+<image src = "https://github.com/X3merrr/Lab-5/blob/main/Kata6.PNG"></image>
 
 <h1 align = "center">Вывод</h1>
 <p>При выполнении этой лабораторной работы, я научился работать на JS</p>
